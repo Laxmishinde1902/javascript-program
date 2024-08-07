@@ -1,8 +1,9 @@
-console.log("============Function with Argument and No return Value================");
-function bankDetails(bankName, accountNo, location, pincode){
-var result = bankName + accountNo + location + pincode;
-console.log("Bank Details :",result);
+
+
+function bankName(bankName , accountNo , location , pincode){
+     var result = bankName + accountNo + location + pincode;   
+     console.log("Bank Details:",bankName , accountNo , location , pincode);
 }
-bankDetails("Axis BAnk ", 1234567890, " Pune ", 410206);
-bankDetails("CITI Bank ", 2314567890, " Mumbai ", 416206);
-bankDetails("HDFC Bank ", 2356981234, " Pune ",  410216);
+bankName("CITI Bank", 1234567890 , " Pune", 431202);
+bankName("Axis Bank" ,2345678901, " Mumbai",410206);
+bankName("HDFC BAnk", 3456789012, " Pune", 321406);
