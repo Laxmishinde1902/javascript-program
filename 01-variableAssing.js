@@ -1,22 +1,37 @@
+console.log("====================myFullName condition=================");
+
 var myFullName;
 console.log(myFullName);
-var myFullName;
-console.log("My Name is : Laxmi Shinde");
-var myFullName;
-console.log("My Full name is Laxmi D. Shinde");
+
+var myFullName = "Laxmi Shinde";
+console.log("My First and last name is:",myFullName);
+
+var myFullName = "Laxmi D. Shinde"
+console.log("My Full Name is:",myFullName);
+
+console.log("====================myLove========================");
 var myLove;
 console.log("I Love only JS");
-var firstName;
-console.log("My First name is: Laxmi");
-var lastname;
-console.log("My Last Name is : Shinde");
-var age;
-console.log("My age is = 26");
-var address;
-console.log("My Address is Sector 9, Ulwe Navi Mumbai");
-var pincode;
-console.log("410206");
-var gender;
-console.log("Gender : Female");
-var isMarries;
-console.log("Married : Yes");
+
+console.log("=====================3rd condition=====================");
+var firstName = "Laxmi";
+   console.log("My First Name is:",firstName);
+var lastName = "Shinde";
+   console.log("My last name is:",lastName);
+var age = 26;
+   console.log("My Age is:",age);
+var address = "Sector 9,ulwe,navi mumbai";
+   console.log("My Address is:",address);
+var isMarried = true;
+   console.log("Is Married:",isMarried);
+
+   
+
+
+
+
+
+
+
+
+
