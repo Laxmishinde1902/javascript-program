@@ -1,19 +1,25 @@
-console.log("==========Function with No Argument and No Return value==========");
-function stringBasics(){
-console.log("My Dream Company Name is : TCS");
-}
-stringBasics();
+console.log(`================= Log Your dream company name ===============`);
 
-console.log("==============2nd Condition================");
-function myHobbies(hobby1,hobby2,hobby3){
-    var result = hobby1+hobby2+hobby3;
-    console.log("My Hobbies are :",result);
-}
-myHobbies("Treking ","Listening Music " ,"Singing");
+      function stringBasics(){
+      console.log(`My dream company name is TCS`);
+      }
 
-console.log("=============Sum of total number of characters============");
-var myHobbies ="Treking, Listening music, Singing";
+      stringBasics();
 
-var myHobbiesLength = myHobbies.length
-console.log("Sum of total number of characters:",myHobbiesLength);
+console.log(`=================== My Hobbies ==============================`);
+     
+     function myHobbies(hobby1,hobby2,hobby3){
+        console.log(`My Hobbies are :${hobby1},${hobby2},${hobby3}`);
+        var result = hobby1 + hobby2 + hobby3;
+     }
 
+     myHobbies("Treking"," Listening music", " Reading books");
+
+console.log(`================= Sum of total number of characters in hobbies ===========`);
+    
+    var myHobbies = ("Treking"," Listening music", " Reading books");
+    
+    var myHobbiesLength = myHobbies.length;
+     console.log(`Total number of characters present in My hobbies are : ${myHobbiesLength} `);
+     
+      
